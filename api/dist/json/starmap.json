@@ -2834,7 +2834,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "e658b2b1-fae7-4945-89b8-b332f235d59b",
+    "parent": "b41a1bc9-5bca-489b-8273-de90f18ec60d",
     "size": "1",
     "reference": "283c2048-b815-4222-976f-c7ca5f4c7643",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton2a/ugf/stanton2a _nt-999-xv.xml"
@@ -2846,7 +2846,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "e658b2b1-fae7-4945-89b8-b332f235d59b",
+    "parent": "b41a1bc9-5bca-489b-8273-de90f18ec60d",
     "size": "1",
     "reference": "072633aa-8f5b-4f3a-a102-706cf8b69569",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton2a/ugf/stanton2a _securitypostcriska.xml"
@@ -2858,7 +2858,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "e658b2b1-fae7-4945-89b8-b332f235d59b",
+    "parent": "b41a1bc9-5bca-489b-8273-de90f18ec60d",
     "size": "1",
     "reference": "c3f16253-2044-434d-94dc-00fa66fc86ac",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton2a/ugf/stanton2a _securitypostdipur.xml"
@@ -2870,7 +2870,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "e658b2b1-fae7-4945-89b8-b332f235d59b",
+    "parent": "b41a1bc9-5bca-489b-8273-de90f18ec60d",
     "size": "1",
     "reference": "2826c893-db78-4a7c-a8f6-afe638fb9e7a",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton2a/ugf/stanton2a _securitypostlespin.xml"
@@ -2882,7 +2882,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "e658b2b1-fae7-4945-89b8-b332f235d59b",
+    "parent": "b41a1bc9-5bca-489b-8273-de90f18ec60d",
     "size": "1",
     "reference": "2e992d23-b942-41db-9c6f-b6dd2a996a67",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton2a/ugf/stanton2a _ugf.xml"
@@ -4104,7 +4104,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57",
+    "parent": "35a9f8f5-8f80-4796-83db-7d7362baeb9a",
     "size": "1",
     "reference": "9a1203ca-075d-413f-80d6-33e48416c9db",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton4/ugf/stanton3b_ugf.xml"
@@ -4116,7 +4116,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57",
+    "parent": "35a9f8f5-8f80-4796-83db-7d7362baeb9a",
     "size": "1",
     "reference": "3f61f287-7733-4e8e-85a7-37dbad6aac9f",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton4/ugf/stanton3b_ugf_arccorpprocessingcenter115.xml"
@@ -4128,7 +4128,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57",
+    "parent": "35a9f8f5-8f80-4796-83db-7d7362baeb9a",
     "size": "1",
     "reference": "22e765be-346f-4c1a-b1b7-8174c2f858bf",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton4/ugf/stanton3b_ugf_arccorpprocessingcenter123.xml"
@@ -4140,7 +4140,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57",
+    "parent": "35a9f8f5-8f80-4796-83db-7d7362baeb9a",
     "size": "1",
     "reference": "266c318b-0303-43b8-a6e8-e6256b419ce2",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton4/ugf/stanton3b_ugf_goodtimestemple.xml"
@@ -4150,7 +4150,7 @@
     "navIcon": "Outpost",
     "hideInStarmap": "0",
     "jurisdiction": "00000000-0000-0000-0000-000000000000",
-    "parent": "5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57",
+    "parent": "35a9f8f5-8f80-4796-83db-7d7362baeb9a",
     "size": "1",
     "reference": "38dc12d7-304d-49e8-9d87-9bf60212cfaa",
     "path": "libs/foundry/records/starmap/pu/system/stanton/stanton4/ugf/stanton3b_ugf_lostandfound.xml"

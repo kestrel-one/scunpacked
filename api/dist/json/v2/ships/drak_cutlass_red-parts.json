@@ -636,7 +636,7 @@
                             "Lifetime": 20.0
                           },
                           "PowerConnection": {
-                            "PowerBase": 99.0,
+                            "PowerBase": 190.0,
                             "PowerDraw": 190.0
                           },
                           "HeatConnection": {
@@ -654,7 +654,7 @@
                                 "Distortion": 1.0
                               },
                               "DetonationDamage": {
-                                "Distortion": 80.0
+                                "Distortion": 42.0
                               }
                             },
                             "Modes": [
@@ -666,18 +666,18 @@
                                 "AmmoPerShot": 1.0,
                                 "PelletsPerShot": 1.0,
                                 "DamagePerShot": {
-                                  "Distortion": 81.0
+                                  "Distortion": 43.0
                                 },
                                 "DamagePerSecond": {
-                                  "Distortion": 398.25
+                                  "Distortion": 211.41666666666669
                                 }
                               }
                             ],
                             "Consumption": {
-                              "RequestedRegenPerSec": 1966.67,
+                              "RequestedRegenPerSec": 1032.5,
                               "Cooldown": 1.0,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 11800.0
+                              "CostPerBullet": 42.0,
+                              "RequestedAmmoLoad": 6195.0
                             }
                           },
                           "Ammunition": {
@@ -689,7 +689,7 @@
                               "Distortion": 1.0
                             },
                             "DetonationDamage": {
-                              "Distortion": 80.0
+                              "Distortion": 42.0
                             }
                           },
                           "Ports": [
@@ -1216,7 +1216,7 @@
                         "Lifetime": 20.0
                       },
                       "PowerConnection": {
-                        "PowerBase": 99.0,
+                        "PowerBase": 190.0,
                         "PowerDraw": 190.0
                       },
                       "HeatConnection": {
@@ -1376,7 +1376,7 @@
                         "Lifetime": 20.0
                       },
                       "PowerConnection": {
-                        "PowerBase": 99.0,
+                        "PowerBase": 190.0,
                         "PowerDraw": 190.0
                       },
                       "HeatConnection": {
@@ -1729,7 +1729,7 @@
                             "Lifetime": 20.0
                           },
                           "PowerConnection": {
-                            "PowerBase": 99.0,
+                            "PowerBase": 190.0,
                             "PowerDraw": 190.0
                           },
                           "HeatConnection": {
@@ -1747,7 +1747,7 @@
                                 "Distortion": 1.0
                               },
                               "DetonationDamage": {
-                                "Distortion": 80.0
+                                "Distortion": 42.0
                               }
                             },
                             "Modes": [
@@ -1759,18 +1759,18 @@
                                 "AmmoPerShot": 1.0,
                                 "PelletsPerShot": 1.0,
                                 "DamagePerShot": {
-                                  "Distortion": 81.0
+                                  "Distortion": 43.0
                                 },
                                 "DamagePerSecond": {
-                                  "Distortion": 398.25
+                                  "Distortion": 211.41666666666669
                                 }
                               }
                             ],
                             "Consumption": {
-                              "RequestedRegenPerSec": 1966.67,
+                              "RequestedRegenPerSec": 1032.5,
                               "Cooldown": 1.0,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 11800.0
+                              "CostPerBullet": 42.0,
+                              "RequestedAmmoLoad": 6195.0
                             }
                           },
                           "Ammunition": {
@@ -1782,7 +1782,7 @@
                               "Distortion": 1.0
                             },
                             "DetonationDamage": {
-                              "Distortion": 80.0
+                              "Distortion": 42.0
                             }
                           },
                           "Ports": [
@@ -3070,9 +3070,7 @@
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 10000,
-                  "RespectsCapacitorAssignments": true,
-                  "CapacitorAssignmentInputOutputRegen": "c8278d31-df4e-4ed3-ba18-eea09704a077",
-                  "CapacitorAssignmentInputOutputAmmoLoad": "ba5037ba-c643-46f9-aaf5-0c04478276ed"
+                  "RespectsCapacitorAssignments": true
                 }
               },
               "Types": [
@@ -3101,9 +3099,7 @@
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 20000,
-                  "RespectsCapacitorAssignments": false,
-                  "CapacitorAssignmentInputOutputRegen": "c8278d31-df4e-4ed3-ba18-eea09704a077",
-                  "CapacitorAssignmentInputOutputAmmoLoad": "ba5037ba-c643-46f9-aaf5-0c04478276ed"
+                  "RespectsCapacitorAssignments": false
                 }
               },
               "Types": [

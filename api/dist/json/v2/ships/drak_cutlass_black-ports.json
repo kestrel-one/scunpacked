@@ -59,7 +59,7 @@
                 "Lifetime": 20.0
               },
               "PowerConnection": {
-                "PowerBase": 99.0,
+                "PowerBase": 190.0,
                 "PowerDraw": 190.0
               },
               "HeatConnection": {
@@ -642,7 +642,7 @@
                 "Lifetime": 20.0
               },
               "PowerConnection": {
-                "PowerBase": 99.0,
+                "PowerBase": 190.0,
                 "PowerDraw": 190.0
               },
               "HeatConnection": {
@@ -796,7 +796,7 @@
                 "Lifetime": 20.0
               },
               "PowerConnection": {
-                "PowerBase": 99.0,
+                "PowerBase": 200.0,
                 "PowerDraw": 200.0
               },
               "HeatConnection": {
@@ -912,7 +912,7 @@
                 "Lifetime": 20.0
               },
               "PowerConnection": {
-                "PowerBase": 99.0,
+                "PowerBase": 200.0,
                 "PowerDraw": 200.0
               },
               "HeatConnection": {
@@ -1015,7 +1015,20 @@
       "Uneditable": true
     }
   ],
-  "RemoteTurrets": [],
+  "RemoteTurrets": [
+    {
+      "PortName": "hardpoint_tail_remote_turret",
+      "Size": 4,
+      "Types": [
+        "Turret.GunTurret"
+      ],
+      "Flags": [
+        "$uneditable"
+      ],
+      "Category": "Remote turrets",
+      "Uneditable": true
+    }
+  ],
   "MiningTurrets": [],
   "UtilityTurrets": [],
   "MiningHardpoints": [],
@@ -1132,9 +1145,11 @@
         "MissileLauncher.MissileRack"
       ],
       "Flags": [
-        "left"
+        "left",
+        "uneditable"
       ],
-      "Category": "Missile racks"
+      "Category": "Missile racks",
+      "Uneditable": true
     },
     {
       "PortName": "hardpoint_Left_Pylon_02",
@@ -1247,9 +1262,11 @@
         "MissileLauncher.MissileRack"
       ],
       "Flags": [
-        "left"
+        "left",
+        "uneditable"
       ],
-      "Category": "Missile racks"
+      "Category": "Missile racks",
+      "Uneditable": true
     },
     {
       "PortName": "hardpoint_Left_Pylon_03",
@@ -1432,9 +1449,11 @@
         "MissileLauncher.MissileRack"
       ],
       "Flags": [
-        "left"
+        "left",
+        "uneditable"
       ],
-      "Category": "Missile racks"
+      "Category": "Missile racks",
+      "Uneditable": true
     },
     {
       "PortName": "hardpoint_Right_Pylon_01",
@@ -1547,9 +1566,11 @@
         "MissileLauncher.MissileRack"
       ],
       "Flags": [
-        "left"
+        "left",
+        "uneditable"
       ],
-      "Category": "Missile racks"
+      "Category": "Missile racks",
+      "Uneditable": true
     },
     {
       "PortName": "hardpoint_Right_Pylon_02",
@@ -1662,9 +1683,11 @@
         "MissileLauncher.MissileRack"
       ],
       "Flags": [
-        "left"
+        "left",
+        "uneditable"
       ],
-      "Category": "Missile racks"
+      "Category": "Missile racks",
+      "Uneditable": true
     },
     {
       "PortName": "hardpoint_Right_Pylon_03",
@@ -1847,9 +1870,11 @@
         "MissileLauncher.MissileRack"
       ],
       "Flags": [
-        "left"
+        "left",
+        "uneditable"
       ],
-      "Category": "Missile racks"
+      "Category": "Missile racks",
+      "Uneditable": true
     }
   ],
   "Countermeasures": [

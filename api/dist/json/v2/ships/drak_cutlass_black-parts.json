@@ -360,7 +360,7 @@
                             "Lifetime": 20.0
                           },
                           "PowerConnection": {
-                            "PowerBase": 99.0,
+                            "PowerBase": 190.0,
                             "PowerDraw": 190.0
                           },
                           "HeatConnection": {
@@ -1109,7 +1109,7 @@
                             "Lifetime": 20.0
                           },
                           "PowerConnection": {
-                            "PowerBase": 99.0,
+                            "PowerBase": 190.0,
                             "PowerDraw": 190.0
                           },
                           "HeatConnection": {
@@ -1443,7 +1443,7 @@
                             "Lifetime": 20.0
                           },
                           "PowerConnection": {
-                            "PowerBase": 99.0,
+                            "PowerBase": 200.0,
                             "PowerDraw": 200.0
                           },
                           "HeatConnection": {
@@ -1559,7 +1559,7 @@
                             "Lifetime": 20.0
                           },
                           "PowerConnection": {
-                            "PowerBase": 99.0,
+                            "PowerBase": 200.0,
                             "PowerDraw": 200.0
                           },
                           "HeatConnection": {
@@ -2303,9 +2303,11 @@
                     "MissileLauncher.MissileRack"
                   ],
                   "Flags": [
-                    "left"
+                    "left",
+                    "uneditable"
                   ],
-                  "Category": "Missile racks"
+                  "Category": "Missile racks",
+                  "Uneditable": true
                 }
               },
               {
@@ -2421,9 +2423,11 @@
                     "MissileLauncher.MissileRack"
                   ],
                   "Flags": [
-                    "left"
+                    "left",
+                    "uneditable"
                   ],
-                  "Category": "Missile racks"
+                  "Category": "Missile racks",
+                  "Uneditable": true
                 }
               },
               {
@@ -2609,9 +2613,11 @@
                     "MissileLauncher.MissileRack"
                   ],
                   "Flags": [
-                    "left"
+                    "left",
+                    "uneditable"
                   ],
-                  "Category": "Missile racks"
+                  "Category": "Missile racks",
+                  "Uneditable": true
                 }
               }
             ],
@@ -2734,9 +2740,11 @@
                     "MissileLauncher.MissileRack"
                   ],
                   "Flags": [
-                    "left"
+                    "left",
+                    "uneditable"
                   ],
-                  "Category": "Missile racks"
+                  "Category": "Missile racks",
+                  "Uneditable": true
                 }
               },
               {
@@ -2852,9 +2860,11 @@
                     "MissileLauncher.MissileRack"
                   ],
                   "Flags": [
-                    "left"
+                    "left",
+                    "uneditable"
                   ],
-                  "Category": "Missile racks"
+                  "Category": "Missile racks",
+                  "Uneditable": true
                 }
               },
               {
@@ -3040,9 +3050,11 @@
                     "MissileLauncher.MissileRack"
                   ],
                   "Flags": [
-                    "left"
+                    "left",
+                    "uneditable"
                   ],
-                  "Category": "Missile racks"
+                  "Category": "Missile racks",
+                  "Uneditable": true
                 }
               }
             ],
@@ -3137,18 +3149,6 @@
                 "uneditable"
               ],
               "Category": "Maneuvering thrusters",
-              "Uneditable": true
-            }
-          },
-          {
-            "Name": "hardpoint_Tail_Utility",
-            "Port": {
-              "PortName": "hardpoint_Tail_Utility",
-              "Size": 1,
-              "Flags": [
-                "uneditable"
-              ],
-              "Category": "DISABLED",
               "Uneditable": true
             }
           },
@@ -5349,6 +5349,10 @@
             }
           },
           {
+            "Name": "$PHYSICS_PROXY_Tail",
+            "MaximumDamage": 200.0
+          },
+          {
             "Name": "hardpoint_weapon_regen_pool",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
@@ -5363,9 +5367,7 @@
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 10000,
-                  "RespectsCapacitorAssignments": true,
-                  "CapacitorAssignmentInputOutputRegen": "c8278d31-df4e-4ed3-ba18-eea09704a077",
-                  "CapacitorAssignmentInputOutputAmmoLoad": "ba5037ba-c643-46f9-aaf5-0c04478276ed"
+                  "RespectsCapacitorAssignments": true
                 }
               },
               "Types": [
@@ -5394,9 +5396,7 @@
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 20000,
-                  "RespectsCapacitorAssignments": false,
-                  "CapacitorAssignmentInputOutputRegen": "c8278d31-df4e-4ed3-ba18-eea09704a077",
-                  "CapacitorAssignmentInputOutputAmmoLoad": "ba5037ba-c643-46f9-aaf5-0c04478276ed"
+                  "RespectsCapacitorAssignments": false
                 }
               },
               "Types": [
@@ -5438,6 +5438,351 @@
             }
           },
           {
+            "Name": "hardpoint_weapon_seat_rack_001",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_001",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_002",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_002",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_003",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_003",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_004",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_004",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_005",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_005",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_006",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_006",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_007",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_007",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_008",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_008",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_009",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_009",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_010",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_010",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_011",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_011",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_012",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_012",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_013",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_013",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_014",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_014",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_015",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_015",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_016",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_016",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_017",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_017",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_weapon_seat_rack_018",
+            "Port": {
+              "PortName": "hardpoint_weapon_seat_rack_018",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_mountedgun_rear",
+            "Port": {
+              "PortName": "hardpoint_mountedgun_rear",
+              "Size": 1,
+              "Types": [
+                "WeaponMount.WeaponControl"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_mountedgun_right_01",
+            "Port": {
+              "PortName": "hardpoint_mountedgun_right_01",
+              "Size": 1,
+              "Types": [
+                "WeaponMount.WeaponControl"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_mountedgun_right_02",
+            "Port": {
+              "PortName": "hardpoint_mountedgun_right_02",
+              "Size": 1,
+              "Types": [
+                "WeaponMount.WeaponControl"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_mountedgun_left_01",
+            "Port": {
+              "PortName": "hardpoint_mountedgun_left_01",
+              "Size": 1,
+              "Types": [
+                "WeaponMount.WeaponControl"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_mountedgun_left_02",
+            "Port": {
+              "PortName": "hardpoint_mountedgun_left_02",
+              "Size": 1,
+              "Types": [
+                "WeaponMount.WeaponControl"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
             "Name": "hardpoint_controller_missile",
             "Port": {
               "PortName": "hardpoint_controller_missile",
@@ -5458,6 +5803,36 @@
                 "uneditable"
               ],
               "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_ramp_panel_ext",
+            "Port": {
+              "PortName": "hardpoint_ramp_panel_ext",
+              "Size": 1,
+              "Types": [
+                "Usable"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Usables",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_tail_remote_turret",
+            "Port": {
+              "PortName": "hardpoint_tail_remote_turret",
+              "Size": 4,
+              "Types": [
+                "Turret.GunTurret"
+              ],
+              "Flags": [
+                "$uneditable"
+              ],
+              "Category": "Remote turrets",
               "Uneditable": true
             }
           }

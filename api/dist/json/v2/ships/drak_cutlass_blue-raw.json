@@ -2396,16 +2396,7 @@
                     {
                       "type": "CapacitorAssignmentController"
                     }
-                  ],
-                  "ControllerDef": {
-                    "UsableDef": {
-                      "PriorityGroups": [
-                        {
-                          "itemType": "CapacitorAssignmentController"
-                        }
-                      ]
-                    }
-                  }
+                  ]
                 }
               },
               {
@@ -3721,7 +3712,7 @@
                       "minsize": 4,
                       "maxsize": 4,
                       "display_name": "port_NameWeaponSlot01",
-                      "flags": "left",
+                      "flags": "left uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",
@@ -3748,7 +3739,7 @@
                       "minsize": 4,
                       "maxsize": 4,
                       "display_name": "port_NameWeaponSlot02",
-                      "flags": "left",
+                      "flags": "left uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",
@@ -3775,7 +3766,7 @@
                       "minsize": 4,
                       "maxsize": 4,
                       "display_name": "port_NameWeaponSlot03",
-                      "flags": "left",
+                      "flags": "left uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",
@@ -3810,7 +3801,7 @@
                       "minsize": 4,
                       "maxsize": 4,
                       "display_name": "port_NameWeaponSlot04",
-                      "flags": "left",
+                      "flags": "left uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",
@@ -3837,7 +3828,7 @@
                       "minsize": 4,
                       "maxsize": 4,
                       "display_name": "port_NameWeaponSlot05",
-                      "flags": "left",
+                      "flags": "left uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",
@@ -3864,7 +3855,7 @@
                       "minsize": 4,
                       "maxsize": 4,
                       "display_name": "port_NameWeaponSlot06",
-                      "flags": "left",
+                      "flags": "left uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",

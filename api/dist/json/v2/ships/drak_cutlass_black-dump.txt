@@ -74,7 +74,6 @@ DRAK_Cutlass_Black
     missile_04_attach                             S2   Missile.Missile                                   MISL_S02_CS_FSKI_Tempest                                         Missiles                                
   hardpoint_Man_Thruster_Right_Tail               S1   ManneuverThruster                                 DRAK_Cutlass_Thruster_Maneuver                                   Maneuvering thrusters                   
   hardpoint_Man_Thruster_Left_Tail                S1   ManneuverThruster                                 DRAK_Cutlass_Thruster_Maneuver                                   Maneuvering thrusters                   
-  hardpoint_Tail_Utility                          S1                                                                                                                      DISABLED                                
    hardpoint_Man_Thruster_Right_Rear_Top          S1   ManneuverThruster                                 DRAK_Cutlass_Thruster_Maneuver                                   Maneuvering thrusters                   
    hardpoint_Man_Thruster_Right_Rear_Bot          S1   ManneuverThruster                                 DRAK_Cutlass_Thruster_Maneuver                                   Maneuvering thrusters                   
    hardpoint_Man_Thruster_Right_Front_Top         S1   ManneuverThruster                                 DRAK_Cutlass_Thruster_Maneuver                                   Maneuvering thrusters                   
@@ -123,5 +122,30 @@ DRAK_Cutlass_Black
   hardpoint_weapon_regen_pool                     S1   WeaponRegenPool                                   WeaponRegenPool_Crew_HeavyFighter                                Weapon regen pool                       
   hardpoint_weapon_regen_pool_turrets             S1   WeaponRegenPool                                   WeaponRegenPool_Turret_S1                                        Weapon regen pool                       
   hardpoint_controller_capacitor_assignment       S1   CapacitorAssignmentController                     Controller_CapacitorAssignment                                   UNKNOWN                                 
+  hardpoint_weapon_seat_rack_001                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_002                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_003                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_004                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_005                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_006                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_007                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_008                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_009                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_010                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_011                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_012                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_013                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_014                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_015                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_016                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_017                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_weapon_seat_rack_018                  S1   Usable                                                                                                             Usables                                 
+  hardpoint_mountedgun_rear                       S1   WeaponMount.WeaponControl                                                                                          UNKNOWN                                 
+  hardpoint_mountedgun_right_01                   S1   WeaponMount.WeaponControl                                                                                          UNKNOWN                                 
+  hardpoint_mountedgun_right_02                   S1   WeaponMount.WeaponControl                                                                                          UNKNOWN                                 
+  hardpoint_mountedgun_left_01                    S1   WeaponMount.WeaponControl                                                                                          UNKNOWN                                 
+  hardpoint_mountedgun_left_02                    S1   WeaponMount.WeaponControl                                                                                          UNKNOWN                                 
   hardpoint_controller_missile                    S1   MissileController                                 Controller_Missile                                               UNKNOWN                                 
+  hardpoint_ramp_panel_ext                        S1   Usable                                                                                                             Usables                                 
+  hardpoint_tail_remote_turret                    S4   Turret.GunTurret                                                                                                   Remote turrets                          
 
