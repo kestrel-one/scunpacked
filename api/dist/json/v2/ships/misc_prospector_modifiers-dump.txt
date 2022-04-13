@@ -57,6 +57,7 @@ MISC_Prospector_Modifiers
   hardpoint_mining_arm                            S1   MiningArm                                         MISC_Prospector_Mining_Arm                                       Mining arm                              
    hardpoint_mining_laser                         S2   Turret                                            Mount_Gimbal_Mining                                              Weapon hardpoints                       
     hardpoint_mining_laser                        S1   WeaponMining.Gun                                  Mining_Laser_Helix_Test_123_Modifiers                            Mining hardpoints                       
+  hardpoint_paint                                 S1   Paints                                                                                                             Paints                                  
   hardpoint_weapon_regen_pool                     S1   WeaponRegenPool                                   WeaponRegenPool_Crew_Prospector                                  Weapon regen pool                       
   hardpoint_weapon_regen_pool_turrets             S1   WeaponRegenPool                                   WeaponRegenPool_Turret_Prospector                                Weapon regen pool                       
   hardpoint_controller_capacitor_assignment       S1   CapacitorAssignmentController                     Controller_CapacitorAssignment                                   UNKNOWN                                 

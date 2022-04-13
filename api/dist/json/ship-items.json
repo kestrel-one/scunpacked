@@ -20744,7 +20744,7 @@
     "itemName": "paint_prospector_default",
     "type": "Paints",
     "subType": "UNDEFINED",
-    "tags": "MISC_Prospector_Base Prospector_Paint @Paint_Prospector_Default",
+    "tags": "Paint_Prospector @Paint_Prospector_Default",
     "size": 1,
     "grade": 1,
     "name": "@LOC_PLACEHOLDER",
@@ -20762,8 +20762,7 @@
         "Name": "Musashi Industrial & Starflight Concern"
       },
       "Tags": [
-        "MISC_Prospector_Base",
-        "Prospector_Paint",
+        "Paint_Prospector",
         "@Paint_Prospector_Default"
       ]
     }
@@ -20868,7 +20867,7 @@
     "itemName": "paint_prospector_ninetails",
     "type": "Paints",
     "subType": "UNDEFINED",
-    "tags": "MISC_Prospector_Base Prospector_Paint @Paint_Prospector_NineTails",
+    "tags": "Paint_Prospector @Paint_Prospector_NineTails",
     "size": 1,
     "grade": 1,
     "name": "@LOC_PLACEHOLDER",
@@ -20886,8 +20885,7 @@
         "Name": "Musashi Industrial & Starflight Concern"
       },
       "Tags": [
-        "MISC_Prospector_Base",
-        "Prospector_Paint",
+        "Paint_Prospector",
         "@Paint_Prospector_NineTails"
       ]
     }
