@@ -19346,6 +19346,96 @@
     }
   },
   {
+    "className": "Paint_Hull_A_Grey",
+    "reference": "728d4d6e-9d8e-4706-9454-05bf7add7563",
+    "itemName": "paint_hull_a_grey",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Hull_A @Paint_Hull_A_Grey",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameHullA_Paint_Dusk",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Hull_A_Grey",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Hull A Dusk Livery",
+      "Description": "For the long haul cargo captains who prefer to make a subtle statement when it comes to their freighter, MISC offers the distinguished Hull A Dusk Livery. A complete grey hull highlights the ship's classic silhouette with tasteful gold trim.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Musashi Industrial & Starflight Concern"
+      },
+      "Tags": [
+        "Paint_Hull_A",
+        "@Paint_Hull_A_Grey"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Hull_A_Grey_White",
+    "reference": "34d445c9-be28-40af-9b62-70bc99dbafcb",
+    "itemName": "paint_hull_a_grey_white",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Hull_A @Paint_Hull_A_Grey_White",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameHullA_Paint_Horizon",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Hull_A_Grey_White",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Hull A Horizon Livery",
+      "Description": "Even a hard working spacecraft deserves to look its best. The Hull A Horizon Livery offers a stylish two-tone grey-and-white color scheme that's ideal for turning heads at the spaceport.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Musashi Industrial & Starflight Concern"
+      },
+      "Tags": [
+        "Paint_Hull_A",
+        "@Paint_Hull_A_Grey_White"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Hull_A_White_Grey",
+    "reference": "76f1f810-a0cb-441b-a2c5-d2c3661c7d43",
+    "itemName": "paint_hull_a_white_grey",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Hull_A @Paint_Hull_A_White_Grey",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameHullA_Paint_Empyrean",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Hull_A_White_Grey",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Hull A Empyrean Livery",
+      "Description": "Cargo hauling takes on a bold new look with the Hull A Empyrean Livery which features a dynamic tricolor layout. Yellow highlights divide a white nose from a grey engineering section lending the appearance of speed to the freighter.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Musashi Industrial & Starflight Concern"
+      },
+      "Tags": [
+        "Paint_Hull_A",
+        "@Paint_Hull_A_White_Grey"
+      ]
+    }
+  },
+  {
     "className": "Paint_Hurricane_Default",
     "reference": "c852a060-f966-4599-9b42-043658233dd9",
     "itemName": "paint_hurricane_default",
@@ -38776,7 +38866,7 @@
           "Speed": 700.0,
           "Range": 1400.0,
           "Size": 4.0,
-          "Capacity": 1950.0,
+          "Capacity": 1150.0,
           "ImpactDamage": {
             "Physical": 63.06
           }
@@ -38802,7 +38892,7 @@
         "Speed": 700.0,
         "Range": 1400.0,
         "Size": 4.0,
-        "Capacity": 1950.0,
+        "Capacity": 1150.0,
         "ImpactDamage": {
           "Physical": 63.06
         }

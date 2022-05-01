@@ -249,7 +249,7 @@
               },
               {
                 "itemPortName": "hardpoint_class_4_nose",
-                "entityClassName": "ASAD_DistortionRepeater_S2",
+                "entityClassName": "KLWE_LaserRepeater_S2",
                 "loadout": {}
               },
               {

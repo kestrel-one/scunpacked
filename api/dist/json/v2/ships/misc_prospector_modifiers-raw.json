@@ -322,7 +322,7 @@
                     "entries": [
                       {
                         "itemPortName": "hardpoint_class_2",
-                        "entityClassName": "ASAD_DistortionRepeater_S1",
+                        "entityClassName": "KLWE_LaserRepeater_S1",
                         "loadout": {}
                       }
                     ]
@@ -337,7 +337,7 @@
                     "entries": [
                       {
                         "itemPortName": "hardpoint_class_2",
-                        "entityClassName": "ASAD_DistortionRepeater_S1",
+                        "entityClassName": "KLWE_LaserRepeater_S1",
                         "loadout": {}
                       }
                     ]
@@ -619,7 +619,7 @@
         "Parts": [
           {
             "name": "Nose",
-            "damageMax": 3840.0,
+            "damageMax": 8000.0,
             "damagemax": 0.0,
             "class": "AnimatedJoint",
             "detachRatio": 1.0,
@@ -1726,7 +1726,7 @@
               },
               {
                 "name": "Rear",
-                "damageMax": 4400.0,
+                "damageMax": 8000.0,
                 "damagemax": 0.0,
                 "class": "AnimatedJoint",
                 "detachRatio": 1.0,

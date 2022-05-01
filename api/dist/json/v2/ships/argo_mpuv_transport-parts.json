@@ -5,7 +5,7 @@
     "Parts": [
       {
         "Name": "Nose",
-        "MaximumDamage": 1000.0,
+        "MaximumDamage": 2500.0,
         "Parts": [
           {
             "Name": "hardpoint_avionics_motherboard",
@@ -600,7 +600,7 @@
           },
           {
             "Name": "Body",
-            "MaximumDamage": 1000.0,
+            "MaximumDamage": 2500.0,
             "Parts": [
               {
                 "Name": "hardpoint_engine_middle_right",
@@ -2424,8 +2424,8 @@
                 }
               }
             ],
-            "ShipDestructionDamage": 1000.0,
-            "PartDetachDamage": 1000.0
+            "ShipDestructionDamage": 2500.0,
+            "PartDetachDamage": 2500.0
           },
           {
             "Name": "hardpoint_paint",
@@ -2506,8 +2506,8 @@
             }
           }
         ],
-        "ShipDestructionDamage": 1000.0,
-        "PartDetachDamage": 1000.0
+        "ShipDestructionDamage": 2500.0,
+        "PartDetachDamage": 2500.0
       }
     ]
   }

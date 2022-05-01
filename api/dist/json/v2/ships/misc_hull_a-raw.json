@@ -197,12 +197,12 @@
                     "entries": [
                       {
                         "itemPortName": "hardpoint_left",
-                        "entityClassName": "ASAD_DistortionRepeater_S1",
+                        "entityClassName": "KLWE_LaserRepeater_S1",
                         "loadout": {}
                       },
                       {
                         "itemPortName": "hardpoint_right",
-                        "entityClassName": "ASAD_DistortionRepeater_S1",
+                        "entityClassName": "KLWE_LaserRepeater_S1",
                         "loadout": {}
                       }
                     ]
@@ -663,7 +663,7 @@
         "Parts": [
           {
             "name": "body",
-            "damageMax": 9500.0,
+            "damageMax": 10000.0,
             "damagemax": 0.0,
             "class": "AnimatedJoint",
             "detachRatio": 1.0,
@@ -2071,7 +2071,7 @@
               },
               {
                 "name": "nose",
-                "damageMax": 8000.0,
+                "damageMax": 10000.0,
                 "damagemax": 0.0,
                 "class": "AnimatedJoint",
                 "Parts": [
@@ -2097,7 +2097,7 @@
                       "display_name": "port_NameWeaponNose",
                       "flags": "$uneditable",
                       "defaultWeaponGroup": "1",
-                      "requiredTags": "",
+                      "requiredTags": "$MISC_Hull_A_Turret",
                       "Types": [
                         {
                           "type": "Turret",

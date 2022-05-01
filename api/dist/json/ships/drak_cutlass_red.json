@@ -421,7 +421,7 @@
                       "entries": [
                         {
                           "itemPortName": "hardpoint_class_2",
-                          "entityClassName": "ASAD_DistortionRepeater_S2",
+                          "entityClassName": "KLWE_LaserRepeater_S2",
                           "loadout": {}
                         }
                       ]
@@ -436,7 +436,7 @@
                       "entries": [
                         {
                           "itemPortName": "hardpoint_class_2",
-                          "entityClassName": "ASAD_DistortionRepeater_S2",
+                          "entityClassName": "KLWE_LaserRepeater_S2",
                           "loadout": {}
                         }
                       ]

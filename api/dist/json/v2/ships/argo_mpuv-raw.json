@@ -521,7 +521,7 @@
         "Parts": [
           {
             "name": "Nose",
-            "damageMax": 1000.0,
+            "damageMax": 2500.0,
             "damagemax": 0.0,
             "class": "AnimatedJoint",
             "detachRatio": 1.0,
@@ -1209,7 +1209,7 @@
               },
               {
                 "name": "Body",
-                "damageMax": 1000.0,
+                "damageMax": 2500.0,
                 "damagemax": 0.0,
                 "class": "AnimatedJoint",
                 "detachRatio": 1.0,

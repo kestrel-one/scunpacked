@@ -401,12 +401,12 @@
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "ASAD_DistortionRepeater_S3",
+                          "entityClassName": "KLWE_LaserRepeater_S3",
                           "loadout": {}
                         },
                         {
                           "itemPortName": "turret_right",
-                          "entityClassName": "ASAD_DistortionRepeater_S3",
+                          "entityClassName": "KLWE_LaserRepeater_S3",
                           "loadout": {}
                         }
                       ]
@@ -421,12 +421,12 @@
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "ASAD_DistortionRepeater_S3",
+                          "entityClassName": "KLWE_LaserRepeater_S3",
                           "loadout": {}
                         },
                         {
                           "itemPortName": "turret_right",
-                          "entityClassName": "ASAD_DistortionRepeater_S3",
+                          "entityClassName": "KLWE_LaserRepeater_S3",
                           "loadout": {}
                         }
                       ]
