@@ -375,6 +375,31 @@
     }
   },
   {
+    "className": "WeaponRegenPool_Crew_Bengal",
+    "reference": "c253114c-5444-4488-9788-d237dd5254e3",
+    "itemName": "weaponregenpool_crew_bengal",
+    "type": "WeaponRegenPool",
+    "subType": "UNDEFINED",
+    "tags": "",
+    "size": 1,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "classification": "Ship.WeaponRegenPool",
+    "stdItem": {
+      "ClassName": "WeaponRegenPool_Crew_Bengal",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "WeaponRegenPool.UNDEFINED",
+      "Classification": "Ship.WeaponRegenPool",
+      "Name": "WeaponRegenPool_Crew_Bengal",
+      "WeaponRegenPool": {
+        "RegenFillRate": 3000.0,
+        "AmmoLoad": 4500,
+        "RespectsCapacitorAssignments": true
+      }
+    }
+  },
+  {
     "className": "WeaponRegenPool_Crew_Bike",
     "reference": "e3b37f69-0980-4f59-bdf8-17d2055337ad",
     "itemName": "weaponregenpool_crew_bike",
@@ -1320,6 +1345,31 @@
       "WeaponRegenPool": {
         "RegenFillRate": 100000.0,
         "AmmoLoad": 60000,
+        "RespectsCapacitorAssignments": false
+      }
+    }
+  },
+  {
+    "className": "WeaponRegenPool_Turret_Bengal",
+    "reference": "6f6ed540-7b3d-45f1-b51d-3cacd856e6c6",
+    "itemName": "weaponregenpool_turret_bengal",
+    "type": "WeaponRegenPool",
+    "subType": "UNDEFINED",
+    "tags": "",
+    "size": 1,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "classification": "Ship.WeaponRegenPool",
+    "stdItem": {
+      "ClassName": "WeaponRegenPool_Turret_Bengal",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "WeaponRegenPool.UNDEFINED",
+      "Classification": "Ship.WeaponRegenPool",
+      "Name": "WeaponRegenPool_Turret_Bengal",
+      "WeaponRegenPool": {
+        "RegenFillRate": 100000.0,
+        "AmmoLoad": 0,
         "RespectsCapacitorAssignments": false
       }
     }
@@ -4337,48 +4387,6 @@
     }
   },
   {
-    "className": "ARMR_DRAK_Vulture",
-    "reference": "1f62e80e-00f3-4bd9-bb6b-52255c44a11a",
-    "itemName": "armr_drak_vulture",
-    "type": "Armor",
-    "subType": "Medium",
-    "tags": "DRAK_Vulture",
-    "size": 1,
-    "grade": 1,
-    "name": "@LOC_PLACEHOLDER",
-    "manufacturer": "DRAK",
-    "classification": "Ship.Armor.Medium",
-    "stdItem": {
-      "ClassName": "ARMR_DRAK_Vulture",
-      "Size": 1,
-      "Grade": 1,
-      "Type": "Armor.Medium",
-      "Classification": "Ship.Armor.Medium",
-      "Name": "ARMR_DRAK_Vulture",
-      "Manufacturer": {
-        "Code": "DRAK",
-        "Name": "Drake Interplanetary"
-      },
-      "Tags": [
-        "DRAK_Vulture"
-      ],
-      "Armour": {
-        "DamageMultipliers": {
-          "Physical": 0.9,
-          "Energy": 0.9,
-          "Distortion": 1.0,
-          "Thermal": 1.0,
-          "Biochemical": 1.0
-        },
-        "SignalMultipliers": {
-          "CrossSection": 1.0,
-          "Infrared": 1.0,
-          "Electromagnetic": 1.0
-        }
-      }
-    }
-  },
-  {
     "className": "ARMR_ESPR_Prowler",
     "reference": "ef591c41-6546-4026-9a40-c05937c7e13c",
     "itemName": "armr_espr_prowler",
@@ -5919,6 +5927,43 @@
           "Thermal": 1.0,
           "Biochemical": 1.0
         },
+        "SignalMultipliers": {
+          "CrossSection": 1.0,
+          "Infrared": 1.0,
+          "Electromagnetic": 1.0
+        }
+      }
+    }
+  },
+  {
+    "className": "ARMR_RSI_Bengal",
+    "reference": "355cf3b8-e70f-40ac-a592-4f24f9fb8718",
+    "itemName": "armr_rsi_bengal",
+    "type": "Armor",
+    "subType": "Heavy",
+    "tags": "RSI_Bengal",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameARMR_RSI_Aurora_MR",
+    "manufacturer": "RSI",
+    "classification": "Ship.Armor.Heavy",
+    "stdItem": {
+      "ClassName": "ARMR_RSI_Bengal",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Armor.Heavy",
+      "Classification": "Ship.Armor.Heavy",
+      "Name": "Aurora MR Ship Armor",
+      "Description": "[PH] Aurora MR Ship Armor",
+      "Manufacturer": {
+        "Code": "RSI",
+        "Name": "Roberts Space Industries"
+      },
+      "Tags": [
+        "RSI_Bengal"
+      ],
+      "Armour": {
+        "DamageMultipliers": {},
         "SignalMultipliers": {
           "CrossSection": 1.0,
           "Infrared": 1.0,
@@ -8710,6 +8755,42 @@
       "Classification": "Ship.Cooler",
       "Name": "Serac",
       "Description": "Item Type: Cooler\nManufacturer: Wen/Cassel \nSize: 4\nGrade: Bespoke\nClass: Civilian\n\nOnly available for Origin Jumpworks' luxury liner, Wen/Cassel specially designed the Serac cooler to keep the 890 Jump operational through the diverse conditions typically encountered while cruising the stars.",
+      "Cooler": {
+        "Rate": 16000000.0
+      },
+      "Durability": {
+        "Health": 1000.0,
+        "Lifetime": 1080.0
+      },
+      "PowerConnection": {
+        "PowerBase": 64.0,
+        "PowerDraw": 96.0
+      },
+      "HeatConnection": {
+        "ThermalEnergyBase": 10.0,
+        "ThermalEnergyDraw": 20.0,
+        "CoolingRate": 1.0
+      }
+    }
+  },
+  {
+    "className": "COOL_RSI_S04_Bengal_SCItem",
+    "reference": "a2472bfc-17ff-461d-8d99-ec68da5d04b1",
+    "itemName": "cool_rsi_s04_bengal_scitem",
+    "type": "Cooler",
+    "subType": "UNDEFINED",
+    "tags": "",
+    "size": 4,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "classification": "Ship.Cooler",
+    "stdItem": {
+      "ClassName": "COOL_RSI_S04_Bengal_SCItem",
+      "Size": 4,
+      "Grade": 1,
+      "Type": "Cooler.UNDEFINED",
+      "Classification": "Ship.Cooler",
+      "Name": "COOL_RSI_S04_Bengal_SCItem",
       "Cooler": {
         "Rate": 16000000.0
       },
@@ -12657,128 +12738,6 @@
     }
   },
   {
-    "className": "DRAK_Vulture_CML_Chaff",
-    "reference": "b0abcd30-66d9-46dc-9291-606a1f535384",
-    "itemName": "drak_vulture_cml_chaff",
-    "type": "WeaponDefensive",
-    "subType": "CountermeasureLauncher",
-    "tags": "",
-    "size": 1,
-    "grade": 1,
-    "name": "@item_NameJOKR_Defcon_CML_Chaff",
-    "manufacturer": "JOK",
-    "classification": "Ship.WeaponDefensive.CountermeasureLauncher",
-    "stdItem": {
-      "ClassName": "DRAK_Vulture_CML_Chaff",
-      "Size": 1,
-      "Grade": 1,
-      "Type": "WeaponDefensive.CountermeasureLauncher",
-      "Classification": "Ship.WeaponDefensive.CountermeasureLauncher",
-      "Name": "Joker Defcon - Noise Launcher",
-      "Description": "[PH] Joker Defcon - Noise Launcher",
-      "Manufacturer": {
-        "Code": "JOK",
-        "Name": "Joker Engineering"
-      },
-      "Durability": {
-        "Health": 1000.0
-      },
-      "PowerConnection": {
-        "PowerBase": 1.0,
-        "PowerDraw": 1.0
-      },
-      "Weapon": {
-        "Ammunition": {
-          "Speed": 180.0,
-          "Range": 144.0,
-          "Size": 0.0,
-          "Capacity": 5.0,
-          "ImpactDamage": {}
-        },
-        "Modes": [
-          {
-            "Name": "Single",
-            "LocalisedName": "[SEMI]",
-            "RoundsPerMinute": 50.0,
-            "FireType": "single",
-            "AmmoPerShot": 1.0,
-            "PelletsPerShot": 1.0,
-            "DamagePerShot": {},
-            "DamagePerSecond": {}
-          }
-        ]
-      },
-      "Ammunition": {
-        "Speed": 180.0,
-        "Range": 144.0,
-        "Size": 0.0,
-        "Capacity": 5.0,
-        "ImpactDamage": {}
-      }
-    }
-  },
-  {
-    "className": "DRAK_Vulture_CML_Flare",
-    "reference": "a64fb6e2-eced-47b1-8358-e89adef5bca4",
-    "itemName": "drak_vulture_cml_flare",
-    "type": "WeaponDefensive",
-    "subType": "CountermeasureLauncher",
-    "tags": "",
-    "size": 1,
-    "grade": 1,
-    "name": "@item_NameAEGS_Gladius_CML_Flare",
-    "manufacturer": "AEG",
-    "classification": "Ship.WeaponDefensive.CountermeasureLauncher",
-    "stdItem": {
-      "ClassName": "DRAK_Vulture_CML_Flare",
-      "Size": 1,
-      "Grade": 1,
-      "Type": "WeaponDefensive.CountermeasureLauncher",
-      "Classification": "Ship.WeaponDefensive.CountermeasureLauncher",
-      "Name": "Aegis Gladius - Decoy Launcher",
-      "Description": "[PH] Aegis Gladius - Decoy Launcher",
-      "Manufacturer": {
-        "Code": "AEG",
-        "Name": "Aegis Dynamics"
-      },
-      "Durability": {
-        "Health": 1000.0
-      },
-      "PowerConnection": {
-        "PowerBase": 1.0,
-        "PowerDraw": 1.0
-      },
-      "Weapon": {
-        "Ammunition": {
-          "Speed": 65.0,
-          "Range": 520.0,
-          "Size": 0.0,
-          "Capacity": 48.0,
-          "ImpactDamage": {}
-        },
-        "Modes": [
-          {
-            "Name": "Burst",
-            "LocalisedName": "[BURST]",
-            "RoundsPerMinute": 450.0,
-            "FireType": "burst",
-            "AmmoPerShot": 1.0,
-            "PelletsPerShot": 1.0,
-            "DamagePerShot": {},
-            "DamagePerSecond": {}
-          }
-        ]
-      },
-      "Ammunition": {
-        "Speed": 65.0,
-        "Range": 520.0,
-        "Size": 0.0,
-        "Capacity": 48.0,
-        "ImpactDamage": {}
-      }
-    }
-  },
-  {
     "className": "ESPR_CML_Decoy_Small",
     "reference": "fadc2bbf-d8cc-4a9e-ae94-1735d2acffe2",
     "itemName": "espr_cml_decoy_small",
@@ -16636,7 +16595,7 @@
       "Type": "Paints.UNDEFINED",
       "Classification": "Ship.Paints",
       "Name": "400i Stratus Livery",
-      "Description": "Balancing black and white, the Calacatta livery for the 400i accentuates the unique shape of the ship.",
+      "Description": "The Stratus livery for the 400i punctuates the grey wings and white main body with a vibrant yellow accent border.",
       "Manufacturer": {
         "Code": "",
         "Name": "Origin Jumpworks"
@@ -17036,6 +16995,96 @@
     }
   },
   {
+    "className": "Paint_Atlas_Orange_Green_Camo",
+    "reference": "d883e83e-ead4-49ac-a934-4e63db7d7cc7",
+    "itemName": "paint_atlas_orange_green_camo",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Centurion @Paint_Atlas_Orange_Green_Camo",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameCenturion_Paint_Sandstorm_Camo",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Atlas_Orange_Green_Camo",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Centurion Sandstorm Camo Livery",
+      "Description": "Outfit the Centurion in dark tan and green camo with the Sandstorm Camo livery. The looks allows this battlefield beast to blend into a wide variety of terrains.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Anvil Aerospace"
+      },
+      "Tags": [
+        "Paint_Centurion",
+        "@Paint_Atlas_Orange_Green_Camo"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Atlas_Sand_Camo",
+    "reference": "b3354c01-87ca-4999-9a8e-f903cf6567f0",
+    "itemName": "paint_atlas_sand_camo",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Centurion @Paint_Atlas_Sand_Camo",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameCenturion_Paint_Beachhead_Camo",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Atlas_Sand_Camo",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Centurion Beachhead Camo Livery",
+      "Description": "Become one with the landscape with the Beachhead Camo livery that gives the Centurion a light tan camo pattern.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Anvil Aerospace"
+      },
+      "Tags": [
+        "Paint_Centurion",
+        "@Paint_Atlas_Sand_Camo"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Atlas_White_Grey_Camo",
+    "reference": "28253aa2-bfe2-4cd4-870c-b83bcd19ec88",
+    "itemName": "paint_atlas_white_grey_camo",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Centurion @Paint_Atlas_White_Grey_Camo",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameCenturion_Paint_IceStorm_Camo",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Atlas_White_Grey_Camo",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Centurion Ice Storm Camo Livery",
+      "Description": "The Ice Storm Camo livery will break up the silhouette of your Centurion with its white and grey camo pattern.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Anvil Aerospace"
+      },
+      "Tags": [
+        "Paint_Centurion",
+        "@Paint_Atlas_White_Grey_Camo"
+      ]
+    }
+  },
+  {
     "className": "Paint_Aurora_Invictus_Blue_Gold",
     "reference": "85d6910a-93f3-4a1d-96f9-1954860a78bc",
     "itemName": "paint_aurora_invictus_blue_gold",
@@ -17362,6 +17411,36 @@
       "Tags": [
         "Paint_Avenger",
         "@Paint_Avenger_Kepler_Blue_Orange"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Avenger_TalkLikeAPirate_Metal_Red",
+    "reference": "da42297a-24b9-4c8e-9f44-f3e86a33e263",
+    "itemName": "paint_avenger_talklikeapirate_metal_red",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Avenger @Paint_Avenger_TalkLikeAPirate_Metal_Red",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameAvenger_Paint_SolarWinds_Metal_Red",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Avenger_TalkLikeAPirate_Metal_Red",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Avenger Solar Winds Livery",
+      "Description": "Fly in style with the Solar Winds livery that gives the Avenger a metallic silver finish with maroon highlights.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Ace Astrogation"
+      },
+      "Tags": [
+        "Paint_Avenger",
+        "@Paint_Avenger_TalkLikeAPirate_Metal_Red"
       ]
     }
   },
@@ -18555,6 +18634,37 @@
     }
   },
   {
+    "className": "Paint_Cutlass_TalkLikeAPirate_Black_Red",
+    "reference": "d75eae08-f688-4b42-9c7b-ee510c0f66c6",
+    "itemName": "paint_cutlass_talklikeapirate_black_red",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Cutlass Paint_Cutlass_Black @Paint_Cutlass_TalkLikeAPirate_Black_Red",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameCutlass_Paint_SkullandCrossbones_Black_Red",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Cutlass_TalkLikeAPirate_Black_Red",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Cutlass Skull and Crossbones Livery",
+      "Description": "Deemed by Drake's public relations team as a “tongue-in-cheek reference to the overblown controversy,” the Skull and Crossbones livery leans into the perception that the Cutlass is marketed toward those on the wrong side of the law. The livery embraces classic pirate iconography by featuring several skull and crossbones symbols across it grey frame with red highlights.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Drake Interplanetary"
+      },
+      "Tags": [
+        "Paint_Cutlass",
+        "Paint_Cutlass_Black",
+        "@Paint_Cutlass_TalkLikeAPirate_Black_Red"
+      ]
+    }
+  },
+  {
     "className": "Paint_Cyclone_Fleetweek_Blue_Gold",
     "reference": "925dc1e1-7b94-4799-b0c0-a050a30d1376",
     "itemName": "paint_cyclone_fleetweek_blue_gold",
@@ -19301,6 +19411,36 @@
     }
   },
   {
+    "className": "Paint_Gladius_TalkLikeAPirate_Metal_Red",
+    "reference": "ea77577b-d7fc-460e-939d-878843cf945d",
+    "itemName": "paint_gladius_talklikeapirate_metal_red",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Gladius @Paint_Gladius_TalkLikeAPirate_Metal_Red",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameGladius_Paint_SolarWinds_Metal_Red",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Gladius_TalkLikeAPirate_Metal_Red",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Gladius Solar Winds Livery",
+      "Description": "Fly in style with the Solar Winds livery that gives the Gladius a metallic silver finish with maroon highlights.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Aegis Dynamics"
+      },
+      "Tags": [
+        "Paint_Gladius",
+        "@Paint_Gladius_TalkLikeAPirate_Metal_Red"
+      ]
+    }
+  },
+  {
     "className": "Paint_Gladius_Valiant",
     "reference": "047d54d4-e288-4649-a369-412775d9a641",
     "itemName": "paint_gladius_valiant",
@@ -19982,6 +20122,81 @@
       "Tags": [
         "Paint_HoverQuad",
         "@Paint_HoverQuad_Terminus_Black_Red"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Hull_A_Grey",
+    "reference": "728d4d6e-9d8e-4706-9454-05bf7add7563",
+    "itemName": "paint_hull_a_grey",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Hull_A @Paint_Hull_A_Grey",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameHullA_Paint_Dusk",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Hull_A_Grey",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Hull A Dusk Livery",
+      "Description": "For the long haul cargo captains who prefer to make a subtle statement when it comes to their freighter, MISC offers the distinguished Hull A Dusk Livery. A complete grey hull highlights the ship's classic silhouette with tasteful gold trim.",
+      "Tags": [
+        "Paint_Hull_A",
+        "@Paint_Hull_A_Grey"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Hull_A_Grey_White",
+    "reference": "34d445c9-be28-40af-9b62-70bc99dbafcb",
+    "itemName": "paint_hull_a_grey_white",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Hull_A @Paint_Hull_A_Grey_White",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameHullA_Paint_Horizon",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Hull_A_Grey_White",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Hull A Horizon Livery",
+      "Description": "Even a hard working spacecraft deserves to look its best. The Hull A Horizon Livery offers a stylish two-tone grey-and-white color scheme that's ideal for turning heads at the spaceport.",
+      "Tags": [
+        "Paint_Hull_A",
+        "@Paint_Hull_A_Grey_White"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Hull_A_White_Grey",
+    "reference": "76f1f810-a0cb-441b-a2c5-d2c3661c7d43",
+    "itemName": "paint_hull_a_white_grey",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Hull_A @Paint_Hull_A_White_Grey",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameHullA_Paint_Empyrean",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Hull_A_White_Grey",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Hull A Empyrean Livery",
+      "Description": "Cargo hauling takes on a bold new look with the Hull A Empyrean Livery which features a dynamic tricolor layout. Yellow highlights divide a white nose from a grey engineering section lending the appearance of speed to the freighter.",
+      "Tags": [
+        "Paint_Hull_A",
+        "@Paint_Hull_A_White_Grey"
       ]
     }
   },
@@ -20727,8 +20942,8 @@
       "Grade": 1,
       "Type": "Paints.UNDEFINED",
       "Classification": "Ship.Paints",
-      "Name": "Mule Bushwacker Livery",
-      "Description": "When the job calls for crossing forests and grasslands, outfit your Drake Mule with the Bushwacker livery, which mixes shades of green and grey.",
+      "Name": "Mule Bushwhacker Livery",
+      "Description": "When the job calls for crossing forests and grasslands, outfit your Drake Mule with the Bushwhacker livery, which mixes shades of green and grey.",
       "Manufacturer": {
         "Code": "",
         "Name": "Drake Interplanetary"
@@ -24565,7 +24780,7 @@
     "tags": "Paint_Talon @Paint_Talon_Teal_Red",
     "size": 1,
     "grade": 1,
-    "name": "@item_NameTalon_Paint_Harmony ",
+    "name": "@item_NameTalon_Paint_Harmony",
     "manufacturer": "",
     "classification": "Ship.Paints",
     "stdItem": {
@@ -24970,6 +25185,36 @@
       "Tags": [
         "Vanguard_Sentinel_Paint",
         "@Sentinel"
+      ]
+    }
+  },
+  {
+    "className": "Paint_Vanguard_TalkLikeAPirate_Metal_Red",
+    "reference": "5b4e5231-1e81-4914-b096-a0c1861034d6",
+    "itemName": "paint_vanguard_talklikeapirate_metal_red",
+    "type": "Paints",
+    "subType": "UNDEFINED",
+    "tags": "Paint_Vanguard @Paint_Vanguard_TalkLikeAPirate_Metal_Red",
+    "size": 1,
+    "grade": 1,
+    "name": "@item_NameVanguard_Paint_SolarWinds_Metal_Red",
+    "manufacturer": "",
+    "classification": "Ship.Paints",
+    "stdItem": {
+      "ClassName": "Paint_Vanguard_TalkLikeAPirate_Metal_Red",
+      "Size": 1,
+      "Grade": 1,
+      "Type": "Paints.UNDEFINED",
+      "Classification": "Ship.Paints",
+      "Name": "Vanguard Solar Winds Livery",
+      "Description": "Fly in style with the Solar Winds livery that gives the Vanguard a metallic silver finish with maroon highlights.",
+      "Manufacturer": {
+        "Code": "",
+        "Name": "Aegis Dynamics"
+      },
+      "Tags": [
+        "Paint_Vanguard",
+        "@Paint_Vanguard_TalkLikeAPirate_Metal_Red"
       ]
     }
   },
@@ -27428,6 +27673,43 @@
       "PowerConnection": {
         "PowerBase": 0.0,
         "PowerDraw": 33750.0
+      },
+      "HeatConnection": {
+        "ThermalEnergyBase": 22000000.0,
+        "ThermalEnergyDraw": 27000000.0,
+        "CoolingRate": 86.66
+      }
+    }
+  },
+  {
+    "className": "POWR_RSI_S04_Bengal_SCItem",
+    "reference": "87bcad59-966f-4280-b651-1f9a8d92bc32",
+    "itemName": "powr_rsi_s04_bengal_scitem",
+    "type": "PowerPlant",
+    "subType": "Power",
+    "tags": "",
+    "size": 4,
+    "grade": 1,
+    "name": "@item_NameIdris_PowerPlant",
+    "classification": "Ship.PowerPlant.Power",
+    "stdItem": {
+      "ClassName": "POWR_RSI_S04_Bengal_SCItem",
+      "Size": 4,
+      "Grade": 1,
+      "Type": "PowerPlant.Power",
+      "Classification": "Ship.PowerPlant.Power",
+      "Name": "Main Powerplant",
+      "Description": "[PH] Aegis Idris Powerplant",
+      "PowerPlant": {
+        "Output": 27500000.0
+      },
+      "Durability": {
+        "Health": 4000.0,
+        "Lifetime": 1440.0
+      },
+      "PowerConnection": {
+        "PowerBase": 0.0,
+        "PowerDraw": 27500000.0
       },
       "HeatConnection": {
         "ThermalEnergyBase": 22000000.0,
@@ -33394,7 +33676,7 @@
         "Lifetime": 11.0
       },
       "PowerConnection": {
-        "PowerBase": 45.0,
+        "PowerBase": 0.1,
         "PowerDraw": 60.0
       },
       "HeatConnection": {
@@ -35744,6 +36026,76 @@
         "ThermalEnergyBase": 463333.3,
         "ThermalEnergyDraw": 470000.0,
         "CoolingRate": 144.2051
+      }
+    }
+  },
+  {
+    "className": "SHLD_GODI_S04_Bengal_SCItem",
+    "reference": "ca41d9be-bbcc-450f-ad08-1bb88c957bf8",
+    "itemName": "shld_godi_s04_bengal_scitem",
+    "type": "Shield",
+    "subType": "UNDEFINED",
+    "tags": "",
+    "size": 4,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GODI",
+    "classification": "Ship.Shield",
+    "stdItem": {
+      "ClassName": "SHLD_GODI_S04_Bengal_SCItem",
+      "Size": 4,
+      "Grade": 1,
+      "Type": "Shield.UNDEFINED",
+      "Classification": "Ship.Shield",
+      "Name": "SHLD_GODI_S04_Bengal_SCItem",
+      "Manufacturer": {
+        "Code": "GODI",
+        "Name": "Gorgon Defender Industries"
+      },
+      "Shield": {
+        "Health": 12084330.0,
+        "Regeneration": 322100.0,
+        "DownedDelay": 10.0,
+        "DamagedDelay": 0.0,
+        "Absorption": {
+          "Physical": {
+            "Minimum": 0.5,
+            "Maximum": 0.95
+          },
+          "Energy": {
+            "Minimum": 1.0,
+            "Maximum": 1.0
+          },
+          "Distortion": {
+            "Minimum": 1.0,
+            "Maximum": 1.0
+          },
+          "Thermal": {
+            "Minimum": 1.0,
+            "Maximum": 1.0
+          },
+          "Biochemical": {
+            "Minimum": 1.0,
+            "Maximum": 1.0
+          },
+          "Stun": {
+            "Minimum": 1.0,
+            "Maximum": 1.0
+          }
+        }
+      },
+      "Durability": {
+        "Health": 3000.0,
+        "Lifetime": 720.0
+      },
+      "PowerConnection": {
+        "PowerBase": 552.0,
+        "PowerDraw": 1068.0
+      },
+      "HeatConnection": {
+        "ThermalEnergyBase": 9266.6,
+        "ThermalEnergyDraw": 9400.0,
+        "CoolingRate": 2106.333
       }
     }
   },
@@ -43733,7 +44085,7 @@
         "weaponMountUsable"
       ],
       "Durability": {
-        "Health": 70866.0,
+        "Health": 708660.0,
         "Lifetime": 20.0
       },
       "PowerConnection": {
@@ -43781,6 +44133,519 @@
           "Physical": 107970.0
         }
       }
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_S7",
+    "reference": "42e5fc33-1e86-4141-b876-c74aaec72a25",
+    "itemName": "bengal_ballisticcannon_s7",
+    "type": "WeaponGun",
+    "subType": "Gun",
+    "tags": "GATS BallisticCannon flightReady weaponMountUsable",
+    "size": 7,
+    "grade": 1,
+    "name": "@item_NameGATS_BallisticCannon_S3",
+    "manufacturer": "GAT",
+    "classification": "Ship.Weapon.Gun",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_S7",
+      "Size": 7,
+      "Grade": 1,
+      "Type": "WeaponGun.Gun",
+      "Classification": "Ship.Weapon.Gun",
+      "Name": "Tarantula GT-870 Mark 3 Cannon",
+      "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Cannon\nSize: 3\n\nFed by Gallenson Tactical’s patented SpinGlide drum ammunition system, the Tarantula GT-870 Mk3 can smoothly and accurately deliver a consistent stream of ballistic shells. Though it only has a moderate rate of fire, its trustworthy durability makes it a dependable addition to any fight. ",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "GATS",
+        "BallisticCannon",
+        "flightReady",
+        "weaponMountUsable"
+      ],
+      "Durability": {
+        "Health": 10240.0,
+        "Lifetime": 20.0
+      },
+      "PowerConnection": {
+        "PowerBase": 44.0,
+        "PowerDraw": 126.0
+      },
+      "HeatConnection": {
+        "ThermalEnergyBase": 10.0,
+        "ThermalEnergyDraw": 20.0,
+        "CoolingRate": 122.5
+      },
+      "Weapon": {
+        "Ammunition": {
+          "Speed": 700.0,
+          "Range": 4200.0,
+          "Size": 7.0,
+          "Capacity": 72000.0,
+          "ImpactDamage": {
+            "Physical": 3400.0
+          }
+        },
+        "Modes": [
+          {
+            "Name": "Single",
+            "LocalisedName": "[AUTO]",
+            "RoundsPerMinute": 50.0,
+            "FireType": "sequence",
+            "AmmoPerShot": 1.0,
+            "PelletsPerShot": 1.0,
+            "DamagePerShot": {
+              "Physical": 3400.0
+            },
+            "DamagePerSecond": {
+              "Physical": 2833.3333333333335
+            }
+          }
+        ]
+      },
+      "Ammunition": {
+        "Speed": 700.0,
+        "Range": 4200.0,
+        "Size": 7.0,
+        "Capacity": 72000.0,
+        "ImpactDamage": {
+          "Physical": 3400.0
+        }
+      },
+      "Ports": [
+        {
+          "PortName": "BAR1",
+          "Size": 7,
+          "Loadout": "Bengal_BallisticCannon_Barrel_S7",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_Barrel_S7",
+            "Size": 7,
+            "Grade": 1,
+            "Type": "WeaponAttachment.Barrel",
+            "Name": "Bengal_BallisticCannon_Barrel_S7",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.Barrel"
+          ]
+        },
+        {
+          "PortName": "MEC",
+          "Size": 7,
+          "Loadout": "Bengal_BallisticCannon_FiringMechanism_S7",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_FiringMechanism_S7",
+            "Size": 7,
+            "Grade": 1,
+            "Type": "WeaponAttachment.FiringMechanism",
+            "Name": "Bengal_BallisticCannon_FiringMechanism_S7",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.FiringMechanism"
+          ]
+        },
+        {
+          "PortName": "POW",
+          "Size": 7,
+          "Loadout": "Bengal_BallisticCannon_PowerArray_S7",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_PowerArray_S7",
+            "Size": 7,
+            "Grade": 3,
+            "Type": "WeaponAttachment.PowerArray",
+            "Name": "Bengal_BallisticCannon_PowerArray_S7",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.PowerArray"
+          ]
+        },
+        {
+          "PortName": "VEN",
+          "Size": 7,
+          "Loadout": "Bengal_BallisticCannon_Ventilation_S7",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_Ventilation_S7",
+            "Size": 7,
+            "Grade": 1,
+            "Type": "WeaponAttachment.Ventilation",
+            "Name": "Bengal_BallisticCannon_Ventilation_S7",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.Ventilation"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_S8",
+    "reference": "eb562cbb-b113-4d95-aef7-a842c91b7d73",
+    "itemName": "bengal_ballisticcannon_s8",
+    "type": "WeaponGun",
+    "subType": "Gun",
+    "tags": "GATS BallisticCannon flightReady weaponMountUsable",
+    "size": 8,
+    "grade": 1,
+    "name": "@item_NameGATS_BallisticCannon_S3",
+    "manufacturer": "GAT",
+    "classification": "Ship.Weapon.Gun",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_S8",
+      "Size": 8,
+      "Grade": 1,
+      "Type": "WeaponGun.Gun",
+      "Classification": "Ship.Weapon.Gun",
+      "Name": "Tarantula GT-870 Mark 3 Cannon",
+      "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Cannon\nSize: 3\n\nFed by Gallenson Tactical’s patented SpinGlide drum ammunition system, the Tarantula GT-870 Mk3 can smoothly and accurately deliver a consistent stream of ballistic shells. Though it only has a moderate rate of fire, its trustworthy durability makes it a dependable addition to any fight. ",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "GATS",
+        "BallisticCannon",
+        "flightReady",
+        "weaponMountUsable"
+      ],
+      "Durability": {
+        "Health": 10240.0,
+        "Lifetime": 20.0
+      },
+      "PowerConnection": {
+        "PowerBase": 44.0,
+        "PowerDraw": 126.0
+      },
+      "HeatConnection": {
+        "ThermalEnergyBase": 10.0,
+        "ThermalEnergyDraw": 20.0,
+        "CoolingRate": 122.5
+      },
+      "Weapon": {
+        "Ammunition": {
+          "Speed": 700.0,
+          "Range": 4200.0,
+          "Size": 8.0,
+          "Capacity": 72000.0,
+          "ImpactDamage": {
+            "Physical": 4000.0
+          }
+        },
+        "Modes": [
+          {
+            "Name": "Single",
+            "LocalisedName": "[AUTO]",
+            "RoundsPerMinute": 45.0,
+            "FireType": "sequence",
+            "AmmoPerShot": 1.0,
+            "PelletsPerShot": 1.0,
+            "DamagePerShot": {
+              "Physical": 4000.0
+            },
+            "DamagePerSecond": {
+              "Physical": 3000.0
+            }
+          }
+        ]
+      },
+      "Ammunition": {
+        "Speed": 700.0,
+        "Range": 4200.0,
+        "Size": 8.0,
+        "Capacity": 72000.0,
+        "ImpactDamage": {
+          "Physical": 4000.0
+        }
+      },
+      "Ports": [
+        {
+          "PortName": "BAR1",
+          "Size": 8,
+          "Loadout": "Bengal_BallisticCannon_Barrel_S8",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_Barrel_S8",
+            "Size": 8,
+            "Grade": 1,
+            "Type": "WeaponAttachment.Barrel",
+            "Name": "Bengal_BallisticCannon_Barrel_S8",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.Barrel"
+          ]
+        },
+        {
+          "PortName": "MEC",
+          "Size": 8,
+          "Loadout": "Bengal_BallisticCannon_FiringMechanism_S8",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_FiringMechanism_S8",
+            "Size": 8,
+            "Grade": 1,
+            "Type": "WeaponAttachment.FiringMechanism",
+            "Name": "Bengal_BallisticCannon_FiringMechanism_S8",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.FiringMechanism"
+          ]
+        },
+        {
+          "PortName": "POW",
+          "Size": 8,
+          "Loadout": "Bengal_BallisticCannon_PowerArray_S8",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_PowerArray_S8",
+            "Size": 8,
+            "Grade": 3,
+            "Type": "WeaponAttachment.PowerArray",
+            "Name": "Bengal_BallisticCannon_PowerArray_S8",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.PowerArray"
+          ]
+        },
+        {
+          "PortName": "VEN",
+          "Size": 8,
+          "Loadout": "Bengal_BallisticCannon_Ventilation_S8",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticCannon_Ventilation_S8",
+            "Size": 8,
+            "Grade": 1,
+            "Type": "WeaponAttachment.Ventilation",
+            "Name": "Bengal_BallisticCannon_Ventilation_S8",
+            "Manufacturer": {
+              "Code": "GAT",
+              "Name": "Gallenson Tactical Systems"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.Ventilation"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticGatling_S6",
+    "reference": "a2c01b55-7c88-4b8a-a45c-c99951ab9e11",
+    "itemName": "bengal_ballisticgatling_s6",
+    "type": "WeaponGun",
+    "subType": "Gun",
+    "tags": "BEHR BallisticGatling flightReady weaponMountUsable",
+    "size": 6,
+    "grade": 1,
+    "name": "@item_NameAPAR_BallisticGatling_S4",
+    "manufacturer": "BEH",
+    "classification": "Ship.Weapon.Gun",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticGatling_S6",
+      "Size": 6,
+      "Grade": 1,
+      "Type": "WeaponGun.Gun",
+      "Classification": "Ship.Weapon.Gun",
+      "Name": "Revenant Gatling",
+      "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
+      "Manufacturer": {
+        "Code": "BEH",
+        "Name": "Behring"
+      },
+      "Tags": [
+        "BEHR",
+        "BallisticGatling",
+        "flightReady",
+        "weaponMountUsable"
+      ],
+      "Durability": {
+        "Health": 16500.0,
+        "Lifetime": 20.0
+      },
+      "PowerConnection": {
+        "PowerBase": 65.0,
+        "PowerDraw": 250.0
+      },
+      "HeatConnection": {
+        "ThermalEnergyBase": 100.0,
+        "ThermalEnergyDraw": 200.0,
+        "CoolingRate": 290.57
+      },
+      "Weapon": {
+        "Ammunition": {
+          "Speed": 1400.0,
+          "Range": 3094.0,
+          "Size": 6.0,
+          "Capacity": 100000.0,
+          "ImpactDamage": {
+            "Physical": 350.0
+          }
+        },
+        "Modes": [
+          {
+            "Name": "Rapid",
+            "LocalisedName": "[AUTO]",
+            "RoundsPerMinute": 1200.0,
+            "FireType": "rapid",
+            "AmmoPerShot": 1.0,
+            "PelletsPerShot": 1.0,
+            "DamagePerShot": {
+              "Physical": 350.0
+            },
+            "DamagePerSecond": {
+              "Physical": 7000.0
+            }
+          }
+        ]
+      },
+      "Ammunition": {
+        "Speed": 1400.0,
+        "Range": 3094.0,
+        "Size": 6.0,
+        "Capacity": 100000.0,
+        "ImpactDamage": {
+          "Physical": 350.0
+        }
+      },
+      "Ports": [
+        {
+          "PortName": "BAR1",
+          "Size": 6,
+          "Loadout": "Bengal_BallisticGatling_Barrel_S6",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticGatling_Barrel_S6",
+            "Size": 6,
+            "Grade": 1,
+            "Type": "WeaponAttachment.Barrel",
+            "Name": "Bengal_BallisticGatling_Barrel_S6",
+            "Manufacturer": {
+              "Code": "BEH",
+              "Name": "Behring"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.Barrel"
+          ]
+        },
+        {
+          "PortName": "MEC",
+          "Size": 6,
+          "Loadout": "Bengal_BallisticGatling_FiringMechanism_S6",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticGatling_FiringMechanism_S6",
+            "Size": 6,
+            "Grade": 1,
+            "Type": "WeaponAttachment.FiringMechanism",
+            "Name": "Bengal_BallisticGatling_FiringMechanism_S6",
+            "Manufacturer": {
+              "Code": "BEH",
+              "Name": "Behring"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.FiringMechanism"
+          ]
+        },
+        {
+          "PortName": "POW",
+          "Size": 6,
+          "Loadout": "Bengal_BallisticGatling_PowerArray_S6",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticGatling_PowerArray_S6",
+            "Size": 6,
+            "Grade": 1,
+            "Type": "WeaponAttachment.PowerArray",
+            "Name": "Bengal_BallisticGatling_PowerArray_S6",
+            "Manufacturer": {
+              "Code": "BEH",
+              "Name": "Behring"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.PowerArray"
+          ]
+        },
+        {
+          "PortName": "VEN",
+          "Size": 6,
+          "Loadout": "Bengal_BallisticGatling_Ventilation_S6",
+          "InstalledItem": {
+            "ClassName": "Bengal_BallisticGatling_Ventilation_S6",
+            "Size": 6,
+            "Grade": 1,
+            "Type": "WeaponAttachment.Ventilation",
+            "Name": "Bengal_BallisticGatling_Ventilation_S6",
+            "Manufacturer": {
+              "Code": "BEH",
+              "Name": "Behring"
+            },
+            "Tags": [
+              "uneditable"
+            ]
+          },
+          "Types": [
+            "WeaponAttachment.Ventilation"
+          ]
+        }
+      ]
     }
   },
   {
@@ -55224,13 +56089,12 @@
       },
       "Weapon": {
         "Ammunition": {
-          "Speed": 700.0,
-          "Range": 1225.0,
+          "Speed": 1400.0,
+          "Range": 1540.0000000000002,
           "Size": 2.0,
           "Capacity": 0.0,
           "ImpactDamage": {
-            "Energy": 60.0,
-            "Distortion": 50.0
+            "Energy": 110.0
           }
         },
         "Modes": [
@@ -55242,30 +56106,27 @@
             "AmmoPerShot": 1.0,
             "PelletsPerShot": 1.0,
             "DamagePerShot": {
-              "Energy": 60.0,
-              "Distortion": 50.0
+              "Energy": 110.0
             },
             "DamagePerSecond": {
-              "Energy": 220.0,
-              "Distortion": 183.33333333333331
+              "Energy": 403.3333333333333
             }
           }
         ],
         "Consumption": {
           "RequestedRegenPerSec": 2016.67,
           "Cooldown": 1.0,
-          "CostPerBullet": 55.0,
+          "CostPerBullet": 110.0,
           "RequestedAmmoLoad": 12100.0
         }
       },
       "Ammunition": {
-        "Speed": 700.0,
-        "Range": 1225.0,
+        "Speed": 1400.0,
+        "Range": 1540.0000000000002,
         "Size": 2.0,
         "Capacity": 0.0,
         "ImpactDamage": {
-          "Energy": 60.0,
-          "Distortion": 50.0
+          "Energy": 110.0
         }
       },
       "Ports": [
@@ -55321,13 +56182,12 @@
       },
       "Weapon": {
         "Ammunition": {
-          "Speed": 700.0,
-          "Range": 1225.0,
+          "Speed": 1400.0,
+          "Range": 1540.0000000000002,
           "Size": 3.0,
           "Capacity": 0.0,
           "ImpactDamage": {
-            "Energy": 80.0,
-            "Distortion": 70.0
+            "Energy": 150.0
           }
         },
         "Modes": [
@@ -55339,30 +56199,27 @@
             "AmmoPerShot": 1.0,
             "PelletsPerShot": 1.0,
             "DamagePerShot": {
-              "Energy": 80.0,
-              "Distortion": 70.0
+              "Energy": 150.0
             },
             "DamagePerSecond": {
-              "Energy": 266.6666666666667,
-              "Distortion": 233.33333333333334
+              "Energy": 500.0
             }
           }
         ],
         "Consumption": {
-          "RequestedRegenPerSec": 15000.0,
+          "RequestedRegenPerSec": 2500.0,
           "Cooldown": 1.25,
-          "CostPerBullet": 75.0,
+          "CostPerBullet": 150.0,
           "RequestedAmmoLoad": 15000.0
         }
       },
       "Ammunition": {
-        "Speed": 700.0,
-        "Range": 1225.0,
+        "Speed": 1400.0,
+        "Range": 1540.0000000000002,
         "Size": 3.0,
         "Capacity": 0.0,
         "ImpactDamage": {
-          "Energy": 80.0,
-          "Distortion": 70.0
+          "Energy": 150.0
         }
       },
       "Ports": [
@@ -55423,8 +56280,7 @@
           "Size": 1.0,
           "Capacity": 0.0,
           "ImpactDamage": {
-            "Energy": 900.0,
-            "Distortion": 600.0
+            "Energy": 1500.0
           }
         },
         "Modes": [
@@ -55436,12 +56292,10 @@
             "AmmoPerShot": 1.0,
             "PelletsPerShot": 1.0,
             "DamagePerShot": {
-              "Energy": 900.0,
-              "Distortion": 600.0
+              "Energy": 1500.0
             },
             "DamagePerSecond": {
-              "Energy": 1050.0,
-              "Distortion": 700.0
+              "Energy": 1750.0
             }
           }
         ],
@@ -55458,8 +56312,7 @@
         "Size": 1.0,
         "Capacity": 0.0,
         "ImpactDamage": {
-          "Energy": 900.0,
-          "Distortion": 600.0
+          "Energy": 1500.0
         }
       }
     }
@@ -66469,6 +67322,342 @@
       "Type": "WeaponAttachment.Ventilation",
       "Classification": "Ship.WeaponAttachment.Ventilation",
       "Name": "BEHR_LaserRepeater_Ventilation_S10",
+      "Manufacturer": {
+        "Code": "BEH",
+        "Name": "Behring"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_Barrel_S7",
+    "reference": "3989a72a-0104-4c8e-ba00-209740b078f4",
+    "itemName": "bengal_ballisticcannon_barrel_s7",
+    "type": "WeaponAttachment",
+    "subType": "Barrel",
+    "tags": "uneditable",
+    "size": 7,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.Barrel",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_Barrel_S7",
+      "Size": 7,
+      "Grade": 1,
+      "Type": "WeaponAttachment.Barrel",
+      "Classification": "Ship.WeaponAttachment.Barrel",
+      "Name": "Bengal_BallisticCannon_Barrel_S7",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_Barrel_S8",
+    "reference": "3592665f-ba6f-494e-8364-483210ab42d1",
+    "itemName": "bengal_ballisticcannon_barrel_s8",
+    "type": "WeaponAttachment",
+    "subType": "Barrel",
+    "tags": "uneditable",
+    "size": 8,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.Barrel",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_Barrel_S8",
+      "Size": 8,
+      "Grade": 1,
+      "Type": "WeaponAttachment.Barrel",
+      "Classification": "Ship.WeaponAttachment.Barrel",
+      "Name": "Bengal_BallisticCannon_Barrel_S8",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_FiringMechanism_S7",
+    "reference": "443d5e57-bc52-49a0-872e-e81f664b7be1",
+    "itemName": "bengal_ballisticcannon_firingmechanism_s7",
+    "type": "WeaponAttachment",
+    "subType": "FiringMechanism",
+    "tags": "uneditable",
+    "size": 7,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.FiringMechanism",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_FiringMechanism_S7",
+      "Size": 7,
+      "Grade": 1,
+      "Type": "WeaponAttachment.FiringMechanism",
+      "Classification": "Ship.WeaponAttachment.FiringMechanism",
+      "Name": "Bengal_BallisticCannon_FiringMechanism_S7",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_FiringMechanism_S8",
+    "reference": "69808bb3-78c5-447e-85d4-798a7a664683",
+    "itemName": "bengal_ballisticcannon_firingmechanism_s8",
+    "type": "WeaponAttachment",
+    "subType": "FiringMechanism",
+    "tags": "uneditable",
+    "size": 8,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.FiringMechanism",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_FiringMechanism_S8",
+      "Size": 8,
+      "Grade": 1,
+      "Type": "WeaponAttachment.FiringMechanism",
+      "Classification": "Ship.WeaponAttachment.FiringMechanism",
+      "Name": "Bengal_BallisticCannon_FiringMechanism_S8",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_PowerArray_S7",
+    "reference": "02ae318b-de85-4ac1-bf81-266ea7f251d4",
+    "itemName": "bengal_ballisticcannon_powerarray_s7",
+    "type": "WeaponAttachment",
+    "subType": "PowerArray",
+    "tags": "uneditable",
+    "size": 7,
+    "grade": 3,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.PowerArray",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_PowerArray_S7",
+      "Size": 7,
+      "Grade": 3,
+      "Type": "WeaponAttachment.PowerArray",
+      "Classification": "Ship.WeaponAttachment.PowerArray",
+      "Name": "Bengal_BallisticCannon_PowerArray_S7",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_PowerArray_S8",
+    "reference": "06732dbd-e347-4eb9-aca8-13db45debb14",
+    "itemName": "bengal_ballisticcannon_powerarray_s8",
+    "type": "WeaponAttachment",
+    "subType": "PowerArray",
+    "tags": "uneditable",
+    "size": 8,
+    "grade": 3,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.PowerArray",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_PowerArray_S8",
+      "Size": 8,
+      "Grade": 3,
+      "Type": "WeaponAttachment.PowerArray",
+      "Classification": "Ship.WeaponAttachment.PowerArray",
+      "Name": "Bengal_BallisticCannon_PowerArray_S8",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_Ventilation_S7",
+    "reference": "a7167416-0fce-4482-af7e-0e108e5a8469",
+    "itemName": "bengal_ballisticcannon_ventilation_s7",
+    "type": "WeaponAttachment",
+    "subType": "Ventilation",
+    "tags": "uneditable",
+    "size": 7,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.Ventilation",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_Ventilation_S7",
+      "Size": 7,
+      "Grade": 1,
+      "Type": "WeaponAttachment.Ventilation",
+      "Classification": "Ship.WeaponAttachment.Ventilation",
+      "Name": "Bengal_BallisticCannon_Ventilation_S7",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticCannon_Ventilation_S8",
+    "reference": "6324de5d-9a51-43fe-a6c9-48075e02d676",
+    "itemName": "bengal_ballisticcannon_ventilation_s8",
+    "type": "WeaponAttachment",
+    "subType": "Ventilation",
+    "tags": "uneditable",
+    "size": 8,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "GAT",
+    "classification": "Ship.WeaponAttachment.Ventilation",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticCannon_Ventilation_S8",
+      "Size": 8,
+      "Grade": 1,
+      "Type": "WeaponAttachment.Ventilation",
+      "Classification": "Ship.WeaponAttachment.Ventilation",
+      "Name": "Bengal_BallisticCannon_Ventilation_S8",
+      "Manufacturer": {
+        "Code": "GAT",
+        "Name": "Gallenson Tactical Systems"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticGatling_Barrel_S6",
+    "reference": "a4da0ade-47dd-4a9d-b1b6-3d66a1db67b9",
+    "itemName": "bengal_ballisticgatling_barrel_s6",
+    "type": "WeaponAttachment",
+    "subType": "Barrel",
+    "tags": "uneditable",
+    "size": 6,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "BEH",
+    "classification": "Ship.WeaponAttachment.Barrel",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticGatling_Barrel_S6",
+      "Size": 6,
+      "Grade": 1,
+      "Type": "WeaponAttachment.Barrel",
+      "Classification": "Ship.WeaponAttachment.Barrel",
+      "Name": "Bengal_BallisticGatling_Barrel_S6",
+      "Manufacturer": {
+        "Code": "BEH",
+        "Name": "Behring"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticGatling_FiringMechanism_S6",
+    "reference": "cf7b01ad-9a1d-4fa7-88c2-1090072e9921",
+    "itemName": "bengal_ballisticgatling_firingmechanism_s6",
+    "type": "WeaponAttachment",
+    "subType": "FiringMechanism",
+    "tags": "uneditable",
+    "size": 6,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "BEH",
+    "classification": "Ship.WeaponAttachment.FiringMechanism",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticGatling_FiringMechanism_S6",
+      "Size": 6,
+      "Grade": 1,
+      "Type": "WeaponAttachment.FiringMechanism",
+      "Classification": "Ship.WeaponAttachment.FiringMechanism",
+      "Name": "Bengal_BallisticGatling_FiringMechanism_S6",
+      "Manufacturer": {
+        "Code": "BEH",
+        "Name": "Behring"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticGatling_PowerArray_S6",
+    "reference": "d0f8adfb-acb4-4704-b6d0-a587ed3cce40",
+    "itemName": "bengal_ballisticgatling_powerarray_s6",
+    "type": "WeaponAttachment",
+    "subType": "PowerArray",
+    "tags": "uneditable",
+    "size": 6,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "BEH",
+    "classification": "Ship.WeaponAttachment.PowerArray",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticGatling_PowerArray_S6",
+      "Size": 6,
+      "Grade": 1,
+      "Type": "WeaponAttachment.PowerArray",
+      "Classification": "Ship.WeaponAttachment.PowerArray",
+      "Name": "Bengal_BallisticGatling_PowerArray_S6",
+      "Manufacturer": {
+        "Code": "BEH",
+        "Name": "Behring"
+      },
+      "Tags": [
+        "uneditable"
+      ]
+    }
+  },
+  {
+    "className": "Bengal_BallisticGatling_Ventilation_S6",
+    "reference": "68cde8c8-3b09-496c-b9c6-4153a18f4a7e",
+    "itemName": "bengal_ballisticgatling_ventilation_s6",
+    "type": "WeaponAttachment",
+    "subType": "Ventilation",
+    "tags": "uneditable",
+    "size": 6,
+    "grade": 1,
+    "name": "@LOC_PLACEHOLDER",
+    "manufacturer": "BEH",
+    "classification": "Ship.WeaponAttachment.Ventilation",
+    "stdItem": {
+      "ClassName": "Bengal_BallisticGatling_Ventilation_S6",
+      "Size": 6,
+      "Grade": 1,
+      "Type": "WeaponAttachment.Ventilation",
+      "Classification": "Ship.WeaponAttachment.Ventilation",
+      "Name": "Bengal_BallisticGatling_Ventilation_S6",
       "Manufacturer": {
         "Code": "BEH",
         "Name": "Behring"
